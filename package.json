@@ -1,6 +1,6 @@
 {
   "name": "grunt-github-remove-all-releases",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Remove all releases of a GitHub repo",
   "engines": {
     "node": ">=0.10.0"
