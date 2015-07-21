@@ -1,0 +1,48 @@
+{
+  "name": "grunt-github-remove-all-releases",
+  "version": "0.0.0",
+  "description": "Remove all releases of a GitHub repo",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": "Steve Mao (https://github.com/stevemao)",
+  "repository": "stevemao/grunt-github-remove-all-releases",
+  "keywords": [
+    "grunt",
+    "gruntplugin",
+    "github-remove-all-releases",
+    "github",
+    "release",
+    "remove",
+    "all",
+    "releases",
+    "gh",
+    "delete"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.0",
+    "github-remove-all-releases": "1.0.0",
+    "plur": "^2.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bump": "^0.3.1",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-conventional-github-releaser": "0.0.1",
+    "grunt-coveralls": "^1.0.0",
+    "grunt-istanbul": "^0.6.1",
+    "grunt-jscs": "^1.8.0",
+    "grunt-npm": "0.0.2",
+    "load-grunt-tasks": "^3.2.0"
+  },
+  "files": [
+    "tasks"
+  ]
+}
