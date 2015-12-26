@@ -1,5 +1,7 @@
 'use strict';
 module.exports = function(grunt) {
+  var token = process.env.TEST_GRUNT_GITHUB_REMOVE_ALL_RELEASES_TOKEN;
+
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     clean: {
@@ -33,7 +35,7 @@ module.exports = function(grunt) {
         options: {
           auth: {
             type: 'oauth',
-            token: process.env.GRUNT_GITHUB_REMOVE_ALL_RELEASES_TOKEN
+            token: token
           },
           changelogOpts: {
             allBlocks: true
@@ -51,7 +53,7 @@ module.exports = function(grunt) {
         options: {
           auth: {
             type: 'oauth',
-            token: process.env.GRUNT_GITHUB_REMOVE_ALL_RELEASES_TOKEN
+            token: token
           },
           owner: 'stevemaotest',
           repo: 'grunt-github-remove-all-releases-test'
